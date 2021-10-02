@@ -1,20 +1,6 @@
 # fdxk.info
 
-## 本项目已停止维护
-
-**由于开发团队自身的原因，我们无法再继续将这个项目维护下去，代码留于此处供后来的同学参考。**
-
-如果你也有开发并维护类似项目的想法，欢迎联系本项目的开发组成员，我们很乐意分享开发过程中积累的经验和教训，并愿意为类似的项目提供各种可能的支持。
-
-我们使用的开课数据集开源于[另一个仓库](https://github.com/Ahacad/FDUCourseData)。
-
-## 贡献者名单
-
-按照字典序：
-
-[ahacad](https://github.com/ahacad)、[Chameee](https://github.com/Chameee)、[CLDXiang](https://github.com/CLDXiang)、[Currycurrycurry](https://github.com/Currycurrycurry)、[Depetrol](https://github.com/Depetrol)、[gkzhb](https://github.com/gkzhb)、[Gootter12](https://github.com/Gootter12)、[hakula139](https://github.com/hakula139)、[Hongqin-Li](https://github.com/Hongqin-Li)、[ichn-hu](https://github.com/ichn-hu)、[jasha64](https://github.com/jasha64)、[Josep-h](https://github.com/Josep-h)、[rebelice](https://github.com/rebelice)、[SunflowerAries](https://github.com/SunflowerAries)、[Vectorchip](https://github.com/Vectorchip)、[Xiaoshan He](http://www.xiaoshanhe.com/)、Xingtong Wang、Yu Hang、Yunhui Li
-
-## 原文档
+**项目实际开发仓库在 [这里](https://github.com/CLDXiang/today-frontend)，本仓库目前仅作为在项目归属组织 FDUCSLG 下的代码备份。如果有提 Issues 或 Pull Requests 的需要，请前往开发仓库。**
 
 fdxk.info 是一款服务复旦大学生的 Web 应用，主要面向移动端。
 
@@ -33,7 +19,7 @@ fdxk.info 是一款服务复旦大学生的 Web 应用，主要面向移动端�
 
 关于具体的技术细节，请看 [Wiki 页面](https://github.com/CLDXiang/today-frontend/wiki)；页面还在书写中，欢迎在详细了解项目后贡献。
 
-### 开发技术栈
+## 开发技术栈
 
 前端
 
@@ -49,11 +35,11 @@ fdxk.info 是一款服务复旦大学生的 Web 应用，主要面向移动端�
 * Nest.js
 * MySQL
 
-### 如何开始
+## 如何开始
 
 参与贡献前，请**详细阅读** [Wiki](https://github.com/CLDXiang/today-frontend/wiki) 中“开发规约与建议”和“Commit 规范”的内容。
 
-#### 前置需求
+### 前置需求
 
 需要有 Node.js 14+ 运行环境
 
@@ -65,7 +51,7 @@ npm install -g yarn
 
 安装 yarn
 
-#### 配置环境变量并安装依赖
+### 配置环境变量并安装依赖
 
 需要用 `.env.local` 文件指定本地开发时连接的后端地址，如果需要连接线上服务，只需要拷贝 `.env.production` 文件后重命名为 `.env.local` 即可
 
@@ -85,15 +71,12 @@ yarn
 yarn dev
 ```
 
-#### 发布
+### 发布
 
 该项目已配置完整的 CICD 流，PR 合入 master 分支后会自动发布到线上
 
-### 开源准备
+## 贡献者名单
 
-- [ ] 选取开源协议
-- [ ] 课程数据 JSON 文件交给后端，并且清除 Git 中所有巨大文件的 history
-- [ ] 重写 README，着重关注贡献流程指南
-- [ ] 整理 Issues 和 PR tags
-- [ ] 整理 branches
-- [ ] 代码安全性审查
+按照字典序：
+
+[ahacad](https://github.com/ahacad)、[Chameee](https://github.com/Chameee)、[CLDXiang](https://github.com/CLDXiang)、[Currycurrycurry](https://github.com/Currycurrycurry)、[Depetrol](https://github.com/Depetrol)、[gkzhb](https://github.com/gkzhb)、[Gootter12](https://github.com/Gootter12)、[hakula139](https://github.com/hakula139)、[Hongqin-Li](https://github.com/Hongqin-Li)、[ichn-hu](https://github.com/ichn-hu)、[jasha64](https://github.com/jasha64)、[Josep-h](https://github.com/Josep-h)、[rebelice](https://github.com/rebelice)、[SunflowerAries](https://github.com/SunflowerAries)、[Vectorchip](https://github.com/Vectorchip)、[Xiaoshan He](http://www.xiaoshanhe.com/)、Xingtong Wang、Yu Hang、Yunhui Li
